@@ -1,9 +1,12 @@
-﻿using MotoApp;
+﻿//using MotoApp;
 
-var stack = new BasicStack();
+var stack = new Stack<double>();
 stack.Push(item: 4.5);
 stack.Push(item: 43);
 stack.Push(item: 333.6);
+
+var stackString = new Stack<string>();
+stackString.Push("Company");
 
 double sum = 0.0;
 
